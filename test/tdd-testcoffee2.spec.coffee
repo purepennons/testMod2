@@ -11,4 +11,5 @@ chai.use require 'sinon-chai'
 describe 'tdd-testcoffee2', ->
   it 'works', ->
     actual = tddTestcoffee2 'World'
+    console.log ""
     expect(actual).to.eql 'Hello World'
